@@ -22,6 +22,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 </head>
 
 <body>
+      <!-- header section -->
     <div class="top_container " id="container">
         <header class="header_section">
             <div class="container-fluid ">
@@ -85,149 +86,97 @@ defined('BASEPATH') or exit('No direct script access allowed');
     </div>
     <!-- end header section -->
 
-    <!-- teacher section -->
+    <!-- catalog section -->
     <section class="catalog_section layout_padding">
         <div class="container">
             <h1>Katalog Buku</h1>
-            <div class="catalog_container layout_padding2">
+            <div class="catalog_container ">
                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <div class="card-deck">
-                                <div class="card">
-                                    <img class="card-img-top" src="<?= base_url(); ?>assets/images/teacher-1.jpg"
-                                        alt="Card image cap">
+                                <div class="card custom-card">
+                                    <div class="card-img-wrapper">
+                                        <img class="card-img-top" src="<?= base_url(); ?>assets/images/book-1.jpg"
+                                            alt="Card image cap">
+                                    </div>
                                     <div class="card-body">
-                                        <h5 class="card-title">Den Mark</h5>
-                                        <button>Detail</button>
+                                        <h5 class="card-title">LAUT BERCERITA - LAILA S. CHUDORI</h5>
+                                        <a href="#" class="btn btn-detail">Detail</a>
                                     </div>
                                 </div>
-                                <div class="card">
-                                    <img class="card-img-top" src="<?= base_url(); ?>assets/images/teacher-2.jpg"
-                                        alt="Card image cap">
+                                <div class="card custom-card">
+                                    <div class="card-img-wrapper">
+                                        <img class="card-img-top" src="<?= base_url(); ?>assets/images/book-2.jpg"
+                                            alt="Card image cap">
+                                    </div>
                                     <div class="card-body">
-                                        <h5 class="card-title">Leena jorj</h5>
-                                        <button>Detail</button>
+                                        <h5 class="card-title">CANTIK ITU LUKA - EKA KURNIAWAN</h5>
+                                        <a href="#" class="btn btn-detail">Detail</a>
                                     </div>
                                 </div>
-                                <div class="card">
-                                    <img class="card-img-top" src="<?= base_url(); ?>assets/images/teacher-3.jpg"
-                                        alt="Card image cap">
+                                <div class="card custom-card">
+                                    <div class="card-img-wrapper">
+                                        <img class="card-img-top" src="<?= base_url(); ?>assets/images/book-3.jpg"
+                                            alt="Card image cap">
+                                    </div>
                                     <div class="card-body">
-                                        <h5 class="card-title">Magi Den</h5>
-                                        <button>Detail</button>
+                                        <h5 class="card-title">BUANA - JURNAL GEOGRAFI , EKOLOGI DAN KEBENCANAAN</h5>
+                                        <a href="#" class="btn btn-detail">Detail</a>
                                     </div>
                                 </div>
-                                <div class="card">
-                                    <img class="card-img-top" src="<?= base_url(); ?>assets/images/teacher-4.jpg"
-                                        alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">jonson mark</h5>
-                                        <button>Detail</button>
+                                <div class="card custom-card">
+                                    <div class="card-img-wrapper">
+                                        <img class="card-img-top" src="<?= base_url(); ?>assets/images/book-4.jpg"
+                                            alt="Card image cap">
                                     </div>
-                                </div>
-                            </div>
-                            <div class="card-deck">
-                                <div class="card">
-                                    <img class="card-img-top" src="<?= base_url(); ?>assets/images/teacher-1.jpg"
-                                        alt="Card image cap">
                                     <div class="card-body">
-                                        <h5 class="card-title">Den Mark</h5>
-                                        <button>Detail</button>
-                                    </div>
-                                </div>
-                                <div class="card">
-                                    <img class="card-img-top" src="<?= base_url(); ?>assets/images/teacher-2.jpg"
-                                        alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Leena jorj</h5>
-                                        <button>Detail</button>
-                                    </div>
-                                </div>
-                                <div class="card">
-                                    <img class="card-img-top" src="<?= base_url(); ?>assets/images/teacher-3.jpg"
-                                        alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Magi Den</h5>
-                                        <button>Detail</button>
-                                    </div>
-                                </div>
-                                <div class="card">
-                                    <img class="card-img-top" src="<?= base_url(); ?>assets/images/teacher-4.jpg"
-                                        alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">jonson mark</h5>
-                                        <button>Detail</button>
+                                        <h5 class="card-title">BUKU PAKET BAHASA INDONESIA SMP KELAS VIII</h5>
+                                        <a href="#" class="btn btn-detail">Detail</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="card-deck">
-                                <div class="card">
-                                    <img class="card-img-top" src="<?= base_url(); ?>assets/images/teacher-1.jpg"
-                                        alt="Card image cap">
+                                <div class="card custom-card">
+                                    <div class="card-img-wrapper">
+                                        <img class="card-img-top" src="<?= base_url(); ?>assets/images/book-1.jpg"
+                                            alt="Card image cap">
+                                    </div>
                                     <div class="card-body">
-                                        <h5 class="card-title">Den Mark</h5>
-                                        <button>Detail</button>
+                                        <h5 class="card-title">LAUT BERCERITA - LAILA S. CHUDORI</h5>
+                                        <a href="#" class="btn btn-detail">Detail</a>
                                     </div>
                                 </div>
-                                <div class="card">
-                                    <img class="card-img-top" src="<?= base_url(); ?>assets/images/teacher-2.jpg"
-                                        alt="Card image cap">
+                                <div class="card custom-card">
+                                    <div class="card-img-wrapper">
+                                        <img class="card-img-top" src="<?= base_url(); ?>assets/images/book-1.jpg"
+                                            alt="Card image cap">
+                                    </div>
                                     <div class="card-body">
-                                        <h5 class="card-title">Leena jorj</h5>
-                                        <button>Detail</button>
+                                        <h5 class="card-title">CANTIK ITU LUKA - EKA KURNIAWAN</h5>
+                                        <a href="#" class="btn btn-detail">Detail</a>
                                     </div>
                                 </div>
-                                <div class="card">
-                                    <img class="card-img-top" src="<?= base_url(); ?>assets/images/teacher-3.jpg"
-                                        alt="Card image cap">
+                                <div class="card custom-card">
+                                    <div class="card-img-wrapper">
+                                        <img class="card-img-top" src="<?= base_url(); ?>assets/images/book-1.jpg"
+                                            alt="Card image cap">
+                                    </div>
                                     <div class="card-body">
-                                        <h5 class="card-title">Magi Den</h5>
-                                        <button>Detail</button>
+                                        <h5 class="card-title">BUANA - JURNAL GEOGRAFI , EKOLOGI DAN KEBENCANAAN</h5>
+                                        <a href="#" class="btn btn-detail">Detail</a>
                                     </div>
                                 </div>
-                                <div class="card">
-                                    <img class="card-img-top" src="<?= base_url(); ?>assets/images/teacher-4.jpg"
-                                        alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">jonson mark</h5>
-                                        <button>Detail</button>
+                                <div class="card custom-card">
+                                    <div class="card-img-wrapper">
+                                        <img class="card-img-top" src="<?= base_url(); ?>assets/images/book-1.jpg"
+                                            alt="Card image cap">
                                     </div>
-                                </div>
-                            </div>
-                            <div class="card-deck">
-                                <div class="card">
-                                    <img class="card-img-top" src="<?= base_url(); ?>assets/images/teacher-1.jpg"
-                                        alt="Card image cap">
                                     <div class="card-body">
-                                        <h5 class="card-title">Den Mark</h5>
-                                        <button>Detail</button>
-                                    </div>
-                                </div>
-                                <div class="card">
-                                    <img class="card-img-top" src="<?= base_url(); ?>assets/images/teacher-2.jpg"
-                                        alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Leena jorj</h5>
-                                        <button>Detail</button>
-                                    </div>
-                                </div>
-                                <div class="card">
-                                    <img class="card-img-top" src="<?= base_url(); ?>assets/images/teacher-3.jpg"
-                                        alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Magi Den</h5>
-                                        <button>Detail</button>
-                                    </div>
-                                </div>
-                                <div class="card">
-                                    <img class="card-img-top" src="<?= base_url(); ?>assets/images/teacher-4.jpg"
-                                        alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">jonson mark</h5>
-                                        <button>Detail</button>
+                                        <h5 class="card-title">BUKU PAKET BAHASA INDONESIA SMP KELAS VIII</h5>
+                                        <a href="#" class="btn btn-detail">Detail</a>
                                     </div>
                                 </div>
                             </div>
@@ -238,11 +187,11 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         </div>
                         <button class="carousel-control-prev" href="#carouselExampleControls" role="button"
                             data-slide="prev">
-                            <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                            <i class="fa-solid fa-arrow-left" aria-hidden="true"></i>
                         </button>
                         <button class="carousel-control-next" href="#carouselExampleControls" role="button"
                             data-slide="next">
-                            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                            <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
                         </button>
                         <div class="carousel-indicators">
                             <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="0"
@@ -256,27 +205,6 @@ defined('BASEPATH') or exit('No direct script access allowed');
         </div>
     </section>
 
-    <!-- teacher section -->
-    <section class="catalog">
-        <h2>Katalog</h2>
-        <div class="search-bar">
-            <input type="text" placeholder="Cari buku...">
-        </div>
-        <div class="book-grid">
-            <!-- Item buku -->
-            <div class="book-item">
-                <img src="book1.jpg" alt="Book Image">
-                <h3>Judul Buku</h3>
-                <button>Detail</button>
-            </div>
-            <!-- Tambahkan lebih banyak item buku sesuai dengan kebutuhan -->
-        </div>
-    </section>
-
-    <div class="footer">
-        <br>
-        <p>© 2024 Electronic Library System</p>
-    </div>
 
 
 

@@ -260,9 +260,29 @@ a:focus {
 /* end hero section */
 
 /* catalog container */
+
+.custom-card {
+  background-color: #f7f2e8; 
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
 .catalog_section .card {
-  border: none;
-  background-color: transparent;
+  border: 25px solid #F0DDCA;
+  border-radius: 25px;
+  background-color: #F0DDCA;
+}
+
+.btn-detail { /* Style untuk tombol Detail */
+  position: relative;
+  background-color: #9c6644;
+  padding: 10px 50px;
+  border-radius: 20px;
+  color: #ffffff;
 }
 
 .catalog_section h1 {
@@ -274,7 +294,8 @@ a:focus {
 
 .catalog_section .card-title {
   text-align: center;
-  color: #7A4830;
+  color: #000000;
+  font-size: medium;
 }
 
 .carousel-control-prev-icon, 
@@ -307,56 +328,36 @@ a:focus {
 
 .carousel-control-prev i, 
 .carousel-control-next i {
+  bottom: 0%;
   color: #000; /* Ganti warna ikon sesuai kebutuhan */
-  font-size: 20px;
+  font-size: 40px;
 }
 
 .carousel-indicators {
-  bottom: -50px; /* Atur posisi indikator */
+  bottom: -20px; /* Atur posisi indikator */
 }
 
 .carousel-indicators button {
-  width: 10px; /* Atur ukuran indikator */
-  height: 10px;
-  border-radius: 50%;
-  background-color: #ccc; /* Ganti warna indikator */
+  width: 15px; /* Lebar indikator */
+  height: 15px; /* Tinggi indikator */
+  background-color: #9c6644; /* Warna coklat */
   border: none;
+  border-radius: 50%; /* Bentuk bulat */
+  margin: 0 5px; /* Jarak antar indikator */
+  opacity: 0.5; /* Mengatur transparansi */
+  transition: opacity 0.3s ease; /* Efek transisi saat hover */
 }
 
 .carousel-indicators .active {
-  background-color: #000; /* Ganti warna indikator aktif */
+  background-color: #9c6644; /* Warna indikator aktif */
+  opacity: 1; /* Indikator aktif tidak transparan */
+}
+
+.carousel {
+  margin-top: 50px;
 }
 
 /* end catalog container */
-
-/* vehicle section */
-.vehicle_img-box {
-  width: 60%;
-  margin: 0 auto;
-}
-
-.vehicle_section .carousel-control-prev,
-.vehicle_section .carousel-control-next {
-  opacity: 1;
-}
-
-.vehicle_section .carousel-control-prev-icon,
-.vehicle_section .carousel-control-next-icon {
-  width: 50px;
-  height: 50px;
-  background-color: #082465;
-  border-radius: 100%;
-  background-size: 10px;
-  background-position: center;
-}
-
-.vehicle_section .carousel-control-prev-icon {
-  background-image: url(../images/prev.png);
-}
-
-.vehicle_section .carousel-control-next-icon {
-  background-image: url(../images/next.png);
-}
 
 
 
